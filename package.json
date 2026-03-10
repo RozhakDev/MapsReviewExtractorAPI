@@ -1,0 +1,17 @@
+{
+  "name": "mapsreviewextractorapi",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "Rozhak",
+  "license": "ISC",
+  "description": "REST API service for extracting Google Maps reviews and returning structured review data.",
+  "dependencies": {
+    "express": "^5.2.1",
+    "google-maps-review-scraper": "^2.0.0",
+    "joi": "^18.0.2"
+  }
+}
